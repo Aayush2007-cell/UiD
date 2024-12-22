@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Header */
+  .header {
+    background: #004e92;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Copyright Section */
+  .copyright-section {
+    padding: 40px 20px;
+    background-color: white;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    color: #004e92;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  p, ul {
+    margin-bottom: 15px;
+  }
+  
+  ul li {
+    margin-left: 20px;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #004e92;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .footer-container p {
+    margin: 0;
+  }
+  
